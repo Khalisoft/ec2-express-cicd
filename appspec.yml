@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - sources: /
-  destination: /home/ec2-user/testec2
+    destination: /home/ec2-user/testec2
 hooks:
   ApplicationStop:
     - location: scripts/app/application_stop.sh
